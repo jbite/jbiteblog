@@ -3,13 +3,14 @@ body{
   margin: 20px;
 }
 .resume-header{
-  border-style: double;
+
+  border-top-style: double;
   padding: 10px 10px;
 }
 
 .header-img {
   float: left;
-  height: 350px;
+  height: 280px;
   width: 180px;
 
 }
@@ -53,4 +54,111 @@ body{
 
 .social-links a {
   margin:0 5px;
+}
+.email{
+  color: #0099FF;
+  font-size:20px;
+}
+.resume-cert{
+  width:900px;
+  margin: 0 auto;
+}
+.resume-cert div{
+  display: inline-block;
+}
+.resume-cert .block{
+  position:relative;
+  text-align: center;
+  color: #FF9900
+}
+.resume-cert .block #insightVM {
+  position:absolute;
+  bottom: -20px;
+  right: 90px;
+}
+.resume-cert .block #ccna {
+  position:absolute;
+  bottom: -20px;
+  right: 50px;
+}
+.resume-cert .block #pa {
+  position:absolute;
+  bottom: -20px;
+  right: 50px;
+}
+.resume-cert .block #sophos {
+  position:absolute;
+  bottom: -20px;
+  right: 70px;
+}
+.resume-cert div img{
+  margin-left:30px;
+  margin-right:30px;
+  width:200px;
+  height:100px;
+  margin-bottom:12px;
+}
+.cert-ccna div img{
+  width:120px;
+  height:120px;
+  margin-bottom:0;
+}
+.cert-pcnse div img{
+  width:120px;
+  height:120px;
+  margin-bottom:0;
+}
+
+.resume-skill{
+  margin:0 auto;
+  margin-top:100px;
+  width:95%;
+}
+.skill-block{
+  width:30%;
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+  font-family:open sans,microsoft jhenghei,sans-serif;
+}
+.skill-cat{
+  font-size: 25px;
+  font-weight:700;
+}
+
+.row{
+  margin-top:30px;
+}
+.resume-foot{
+  height:80px;
+  margin-top: 15px;
+  border-top-style: double
+}
+.resume-experience{
+  margin:0 auto;
+  margin-top:50px;
+  width:95%;
+
+  font-family:open sans,microsoft jhenghei,sans-serif;
+}
+.resume-experience .row{
+  width:95%;
+}
+.resume-experience .row :hover{
+  background-color: #DDDDDD;
+}
+.exp-block{
+  padding: 10px 10px;
+}
+.exp-num{
+  float:left;
+  text-align: right;
+  line-height: 20px;
+  height:80px;
+  width:200px;
+}
+.exp-content{
+  float:left;
+  margin-left:30px;
+  text-align: left;
 }

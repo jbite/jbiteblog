@@ -1,0 +1,56 @@
+body{
+  margin-top: 20px;
+  margin: 20px;
+}
+.resume-header{
+  border-style: double;
+  padding: 10px 10px;
+}
+
+.header-img {
+  float: left;
+  height: 350px;
+  width: 180px;
+
+}
+
+.header-sylubus{
+  float:left;
+  margin-left: 25px;
+  width:60%;
+}
+.A1 {
+  font-weight: 700;
+  color: #0099CC;
+  font-size: 30px;
+  font-family:open sans,microsoft jhenghei,sans-serif;
+}
+.sub-A1{
+  color: #AAAAAA;
+  font-size: 20px;
+  font-family:open sans,microsoft jhenghei,sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.summary{
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: open sans,
+               pingfang tc,
+               microsoft jhenghei,
+               pmingliu,
+               notosanscjktc-regular,
+               notosanscjksc-regular,
+               notosanscjkkr-regular,
+               notosanscjkjp-regular,
+               notosans-regular,
+               sans-serif;
+}
+.social-links{
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.social-links a {
+  margin:0 5px;
+}
